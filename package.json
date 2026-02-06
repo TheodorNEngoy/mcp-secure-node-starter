@@ -1,0 +1,23 @@
+{
+  "name": "mcp-secure-node-starter",
+  "version": "0.1.0",
+  "description": "Secure-by-default Node.js MCP server starter (CORS allowlist, size limits, schema validation)",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheodorNEngoy/mcp-secure-node-starter"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "zod": "^4.2.1"
+  }
+}
+
